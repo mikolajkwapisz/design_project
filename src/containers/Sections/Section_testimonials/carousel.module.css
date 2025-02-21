@@ -1,0 +1,158 @@
+.container{
+  gap: 10vw;
+  margin-top: 3.3rem;
+  user-select: none;
+
+
+  display: flex;
+  align-items: center;
+}
+
+.container svg{
+  color: #c1c5cd;
+  font-size: 4vw;
+  font-weight: bolder;
+}
+
+
+.container svg:hover,
+.container svg:focus{
+  color: #b2b5b9;
+  cursor: pointer;
+}
+
+.container svg:focus{
+  border: 1px solid black;
+}
+
+.carousel{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 3rem;
+  
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.5vw;
+  width: 30vw;
+  overflow: hidden;
+}
+
+
+.carousel__main_contianer{
+  user-select:text;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.carousel__main_img img,
+.carousel__item img{
+  border-radius: 50%;
+}
+
+.carousel__item img{
+  width: 4.5vw;
+}
+
+.carousel__main_img img{
+  width: 6.3vw;
+}
+
+.carousel__main_contianer * {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel__main_name p {
+  color: var(--color-purple);
+  font-family: 'Josefin-Sans-light';
+  font-size: 3.2rem;
+}
+
+.carousel__main_position p {
+  color: #575757;
+  font-family: 'Roboto';
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.carousel__main_description {
+  margin-top: 2.7rem;
+  width: 30vw;
+}
+
+.carousel__main_description p{
+  color: #575757;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+  padding: 0 1rem;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .images{
+    width: 60vw;
+  }
+
+  .carousel__item img{
+    width: 9vw;
+  }
+  
+  .carousel__main_img img{
+    width: 12.6vw;
+  }
+
+  .container svg{
+    font-size: 8vw;
+  }
+
+  .carousel__main_description{
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .carousel__main_name p {
+    font-size: 2.5rem;
+  }
+
+  .carousel__main_position p{
+    font-size: 0.7rem;
+  }
+
+  .carousel__main_description p{
+    font-size: 0.65rem;
+    line-height: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .carousel__main_name p {
+    font-size: 8vw;
+  }
+
+  .carousel__main_position p{
+    font-size: 2vw;
+  }
+
+  .carousel__main_description p{
+    font-size: 2vw;
+    line-height: 3.5vw;
+  }
+}

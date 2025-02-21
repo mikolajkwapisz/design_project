@@ -1,0 +1,9 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.App main{
+  flex: 1;
+}

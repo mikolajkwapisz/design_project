@@ -1,0 +1,59 @@
+.section{
+  min-height: 60vh;
+  padding-bottom: 3rem;
+  padding-top: 3.2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2.5rem;
+}
+
+.container ul {
+  list-style: none;
+
+  display: flex;
+  gap: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.container li{
+  color: #77787c;
+  font-family: 'Poppins';
+  font-size: 0.87rem;
+
+}
+
+.images{
+  margin-top: 2rem;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 1.5vw 1.5vw;
+}
+
+.images img{
+  width: 32vw;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+
+  .container{
+    gap: 1.5rem;
+  }
+
+  .container ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  
+}

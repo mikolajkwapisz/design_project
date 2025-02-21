@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(./assets/font/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url(./assets/font/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-italic';
+  src: url(./assets/font/roboto/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Ergonomique';
+  src: url(./assets/font/ergonomique/FontsFree-Net-ergonomique-light.ttf);
+}
+
+@font-face {
+  font-family: 'Ergonomique-bold';
+  src: url(./assets/font/ergonomique/Ergonomique-Semibold.ttf);
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url(./assets/font/barlow/barlow/Barlow-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'Button';
+  src: url(./assets/font/barlow/barlow/Barlow-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Josefin-Sans';
+  src: url(./assets/font/josefin_sans/JosefinSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Josefin-Sans-light';
+  src: url(./assets/font/josefin_sans/JosefinSans-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(./assets/font/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Poopins-regular';
+  src: url(./assets/font/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url(./assets/font/mulish/Mulish-Medium.ttf);
+}
+
+
+:root{
+  font-size: 16px;
+  font-family: 'Roboto';
+
+  --color-purple: #5645ff;
+  --color-white: #fff;
+  --color-dark: #212121;
+  --color-dark-lighter: #55565b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto-bold';
+  font-size: 1.15rem;
+  letter-spacing: 0.15rem;
+}
+
+.flex__center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

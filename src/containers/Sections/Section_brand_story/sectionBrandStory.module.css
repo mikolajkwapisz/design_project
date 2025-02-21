@@ -1,0 +1,130 @@
+.section {
+  min-height: 50vh;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 7.5rem;
+}
+
+.container{
+  width: 60vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.8rem;
+}
+
+
+.container button {
+  color: white;
+  background-color: black;
+  padding: 1rem 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.16rem;
+  border: none;
+  border-radius: 4.5px;
+}
+
+.container button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 5px 1px black;
+
+}
+
+.text__container{
+  margin-top: 2.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 1.4rem;
+}
+
+.text__container p {
+  font-family: 'Poppins', sans-serif;
+
+  line-height: 1.8rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  color: #6e6f73;
+
+}
+
+.text__container_1{
+  display: flex;
+  gap: 6.5rem;
+}
+
+.text__container_right ul {
+  margin: 0;
+  margin-top: 2rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.text__container_1_left li,
+.text__container_1_right li{
+  font-size: 0.8rem;
+  color: var(--color-purple);
+  letter-spacing: 0.02rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 1200px){
+  .container{
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .text__container p {
+    line-height: 1.5rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.03rem;
+  }
+  
+  .text__container_1_left li,
+  .text__container_1_right li{
+    font-size: 0.55rem;
+    letter-spacing: 0.01rem;
+  }
+
+  .container button {
+    padding: 0.7rem 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.12rem;
+    border: none;
+    border-radius: 4.5px;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .text__container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text__container_1{
+    gap: 1.5rem;
+  }
+
+  .container button {
+    margin-left: 0;
+  }
+
+  .container{
+    align-items: center;
+  }
+
+  .text__container_1{
+    justify-content: center;
+  }
+}
+

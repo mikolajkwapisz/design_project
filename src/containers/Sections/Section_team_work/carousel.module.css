@@ -1,0 +1,60 @@
+.carousel{
+  display: flex;
+  justify-content: center;
+  gap: 7.3vw;
+  align-items: center;
+  user-select: none;
+}
+
+.carousel svg{
+  color: #ecedef;
+  font-size: 4vw;
+  font-weight: bolder;
+}
+
+.carousel svg:hover,
+.carousel svg:focus{
+  color: #caccce;
+  cursor: pointer;
+}
+
+.carousel svg:focus{
+  border: 1px solid black;
+}
+
+
+
+
+.carousel__images{
+  width: 57.81vw;
+  overflow-x: hidden;
+}
+
+.carousel__images ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  transform: translateX(0);
+  gap: 1.56vw;
+  list-style: none;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.carousel__images li:first-child{
+  --x: 0vw;
+
+  margin-left: var(--x);
+}
+
+.carousel__images li{
+  transition: ease 0.5s;
+}
+
+.carousel__images img{
+  width: 18.23vw;
+}
+
+
+
+

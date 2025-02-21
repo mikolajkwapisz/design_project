@@ -1,0 +1,33 @@
+.section{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4.4rem;
+}
+
+.section__container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section__container_heading{
+  margin-left: 20.5vw;
+  margin-right: 20.5vw;
+  margin-bottom: 3.8rem;
+}
+
+.section__container_carousel{
+  margin-bottom: 3.4rem;
+}
+
+.section__container_description{
+  font-family: 'Mulish', sans-serif;
+  margin: 0 20.5vw;
+  margin-bottom: 8.58rem;
+  font-size: 0.86vw;
+  letter-spacing: 0.015vw;
+  line-height: 1.5vw;
+  color: #63646b;
+}
