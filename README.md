@@ -1,2 +1,2 @@
 # sopchy_project
-website based on available design
+website based on img design
